@@ -1,8 +1,8 @@
 # Edge Attribution Patching (EAP)
-Fork of TransformerLens for integrating EAP. Issues relfect the fetures / TODOs we discussed. I copied Oscar's initial implementation over from [this repo](https://github.com/canrager/clas). The EAP-relevant files in this fork are: 
+Fork of TransformerLens for integrating EAP. Issues in this repo reflect the features / TODOs we discussed. I copied Oscar's initial implementation over from [this repo](https://github.com/canrager/clas). The EAP-relevant files are: 
 
-- `./transformerlens/EAPWrapper.py`
-- `./demos/EAP_Demo.ipynb`
+- [./transformerlens/EAPWrapper.py](https://github.com/canrager/eap/blob/main/transformer_lens/EAPWrapper.py)
+- [./demos/EAP_Demo.ipynb](https://github.com/canrager/eap/blob/main/demos/EAP_Demo.ipynb)
 - `./transformerlens/ioi_dataset.py` (remove later, copied from `acdc` for testing)
 - `./transformerlens/llama2_utils.py` (remove later, copied from `clas` for testing)
 
