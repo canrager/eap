@@ -1,3 +1,17 @@
+# Edge Attribution Patching (EAP)
+Fork of TransformerLens for integrating EAP. Issues relfect the fetures / TODOs we discussed. I copied Oscar's initial implementation over from [this repo](https://github.com/canrager/clas). The EAP-relevant files in this fork are: 
+
+- `./transformerlens/EAPWrapper.py`
+- `./demos/EAP_Demo.ipynb`
+- `./transformerlens/ioi_dataset.py` (remove later, copied from `acdc` for testing)
+- `./transformerlens/llama2_utils.py` (remove later, copied from `clas` for testing)
+
+We identify circuits in LLMs based on [Edge Attribution Patching](https://arxiv.org/abs/2310.10348), and [Automatic Circuit Discovery](https://arxiv.org/abs/2304.14997). We are currently supporting [TransformerLens](https://github.com/neelnanda-io/TransformerLens) models only. In the future, we may apply [Activation Steering](https://arxiv.org/abs/2308.10248) to the identified circuits.
+
+
+
+*Original TL Readme:*
+
 # TransformerLens
 
 <!-- Status Icons -->

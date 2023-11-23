@@ -11,11 +11,14 @@ from .FactoredMatrix import FactoredMatrix
 from .ActivationCache import ActivationCache
 from .HookedTransformer import HookedTransformer
 from .SVDInterpreter import SVDInterpreter
+from .EAPWrapper import EAPWrapper
 from .HookedEncoder import HookedEncoder
 from . import head_detector
 from . import loading_from_pretrained as loading
 from . import patching
 from . import train
+from . import ioi_dataset
+from . import llama2_utils
 
 from .past_key_value_caching import (
     HookedTransformerKeyValueCache as EasyTransformerKeyValueCache,
